@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fitness</title>
+</head>
+<link rel="stylesheet" href="css2/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<!-- css2 is the name of folder -->
+<style>
+  /* css reset */
+  body {
+
+    font-weight: bolder;
+
+    font-family: 'Roboto', sans-serif;
+    background: url("https://images.pexels.com/photos/3747468/pexels-photo-3747468.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+
+
+    background-repeat: no-repeat;
+
+    background-size: 50vmax;
+
+    background-position-x: 20px;
+    background-position-y: 110px;
+
+    height: 4000px;
+  }
+
+  .header {
+
+    font-weight: 700;
+    color: rgb(26, 219, 161);
+    font-size: 2vmax;
+  }
+
+
+  .left span {
+    /* display: inline-block; */
+    /* make them inline elements and in one line */
+    border: solid rgb(245, 21, 21) 2px;
+    font-size: 2vmax;
+    position: relative;
+    left: 7vmax;
+    top: 2vmax;
+
+
+  }
+
+  .mid {
+    font-family: 'Courier New', Courier, monospace font-weight: normal;
+    font-size: 25px;
+
+
+
+    display: inline-block;
+    border: solid rgb(166, 255, 0) 2px;
+    position: relative;
+    left: 280px;
+    bottom: 2.5vmax;
+
+  }
+
+  .right {
+    position: relative;
+    left: 89vmax;
+    bottom: 5vmax;
+    ;
+    display: inline-block;
+    border: solid rgb(255, 0, 191) 2px;
+
+
+  }
+
+  /* li{
+    list-style: none;
+  } */
+  .mid a {
+    text-decoration: none;
+    padding: 3vmin;
+
+
+    margin: 15px;
+
+    /* font-weight: bolder; */
+    color: rgb(44, 41, 8);
+    background-color: rgba(255, 255, 240, 0.13);
+
+  }
+
+  a:hover {
+    color: orangered;
+    text-decoration: underline;
+
+  }
+
+  #help {
+    cursor: help;
+    background-color: rgba(255, 255, 240, 0.24);
+  }
+
+  /* .left img{
+     width: 10vmin;
+height: 8vmin; 
+ filter: invert(100%);
+ margin-left:80px;
+ /* change colour of image black to white */
+  }
+
+  */ .left {
+    text-align: center;
+    position: relative;
+    left: 6vmax;
+
+
+  }
+
+  .mid li {
+
+    display: inline-block;
+  }
+
+  .btn {
+    /* background-color: rgb(20, 20, 20); */
+    /* color: rgb(248, 247, 244); */
+    height: 2vmax;
+    width: 3.4vmax;
+    margin: 0.1vmin;
+
+    /* padding-top: 10px; */
+    border-radius: 10px;
+    padding: 7px;
+
+  }
+
+  .btn:hover {
+    color: rgb(236, 226, 226);
+    background-color: rgb(26, 219, 161);
+    cursor: grab;
+
+
+  }
+
+  .container {
+    /* border: solid lawngreen 2px; */
+    width: 800px;
+    position: relative;
+    left: 49vmax;
+    bottom: 40vmax;
+
+
+    padding: 50px;
+  }
+
+  .green {
+
+    position: relative;
+    bottom: 1.3vmax;
+    left: 697px;
+
+    /* border: 5px solid pink; */
+
+  }
+
+  .wel {
+    font-family: 'Otomanopee One', sans-serif;
+
+    color: white;
+    font-size: 40px;
+
+
+  }
+
+  .wel2 {
+    color: rgba(12, 245, 12, 0.767);
+
+
+  }
+
+  .container a {
+    font-size: 25px;
+    color: blue;
+    position: relative;
+    left: 8vmax;
+    bottom: 4.5vmax;
+
+  }
+
+  a:hover {
+    color: rgb(241, 75, 33);
+  }
+
+  .news {
+    position: relative;
+    bottom: 40.3vmax;
+    left: 0.9vmax;
+  }
+
+  .news2h3 {
+    position: relative;
+    bottom: 85vmax;
+    left: 10vmax;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 40px;
+    color: rgb(224, 104, 17);
+  }
+
+  .news2 {
+    position: relative;
+    bottom: 103vmax;
+    left: 4vmax;
+    font-family: cursive;
+    font-size: 30px;
+    color: seashell;
+  }
+
+  #name {
+    position: relative;
+    bottom: 6px;
+    margin: 1px;
+
+
+
+
+  }
+
+  input {
+    width: 500px;
+    height: 1.9vmax;
+    position: relative;
+    left: 0.2vmax;
+
+
+  }
+
+  input[type="radio"] {
+    padding: ;
+  }
+  /* .chat
+  {
+position: sticky;
+bottom: 50vmax;
+left: 93.5vmax;
+
+  } */
+
+
+
+
+
+
+</style>
+
+
+<body>
+  <header class="header">
+    <div class="left">
+      <!-- <img src="data:image/png;base64,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" alt=""> -->
+      <span>&#x1F49A;</span>
+
+      <span>library</span>
+
+
+    </div>
+    <div class="mid">
+      <ul>
+
+        <li> <b><a href=""><b>Home</b> </a> </b></li>
+        <li> <a href=""> About</a> </li>
+        <li> <a href=""> Collections </a> </li>
+        <li> <a href=""> Events </a> </li>
+        <li> <a href=""> Contact </a> </li>
+        <li> <a href="" id="help"> Help</a> </li>
+        <ul></ul>
+        
+      </ul>
+    </div>
+
+    <div class="green">
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ__U7nV56jYMkPcH8KO5MBTGYbQRUVe3oj5w&usqp=CAU"
+        alt="" width="650px" height="455px">
+
+    </div>
+    <div class="right">
+      <button class="btn"> blog</button>
+      <button class="btn">Login</button>
+
+
+
+    </div>
+    <div class="container">
+
+      <p class="wel"> The Green Hearts Library</p>
+      <p class="wel2"> Are you a reading freak?</p>
+      <p class="wel2"> Let's make your life a bit easier in pandemic. <br> Now Buy or rent your favourite books and <br>
+        get them delivered at your doorsteps at the <br> earliest.. <br> </p>
+      <a href="">read more</a>
+
+
+
+
+    </div>
+
+  </header>
+
+  <div class="news">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSttha0OYfNsrw76TtWqjNVKeEtxlLp1ZOXfQ&usqp=CAU"
+      alt="" width="1337px" height="900px">
+  </div>
+  <div class="news2">
+    <h2>
+      Subscribe to our Newsletter
+    </h2>
+    <label for="name">Name</label><br>
+    <input type="text" id="name">
+    <br>
+    phone number <br><input type="text">
+    <br>
+    email <br><input type="email" name="" id="">
+    <br>
+    Want to recieve daily updates?
+
+    <br>
+
+
+    Yes <input type="radio" name="n" checked> No <input type="radio" name="n">
+  </div>
+<div class="chat">
+   <button >
+     <img src="data:image/png;base64,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" alt=""  width="45px" height="28px">
+
+   </button>
+
+</div>
+
+
+
+
+
+
+</body>
+
+</html>
